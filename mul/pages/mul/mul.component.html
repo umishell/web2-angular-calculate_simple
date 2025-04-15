@@ -1,0 +1,9 @@
+<form>
+
+  <input #num1 type="text"><br>
+  <input #num2 type="text"><br>
+  <input type="button" value="mul"
+  (click)="mul(num1.value, num2.value)"/><br><br>
+  <input type="text" [value]="result" readonly>
+
+  </form>
